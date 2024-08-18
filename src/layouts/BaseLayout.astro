@@ -4,7 +4,7 @@ import Navigation from "@/components/global/Navigation.astro";
 import Footer from "@/components/global/Footer.astro";
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="selection:bg-carrot selection:text-white">
   <head>
     <BaseHead
@@ -15,17 +15,17 @@ import Footer from "@/components/global/Footer.astro";
     <link rel="sitemap" href="/sitemap-index.xml" />
     <!-- Add structured data for the website -->
     <script type="application/ld+json">
-    {{
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "ikhode",
-      "url": "https://ikhode.site",
-      "description": "Ikhode Site provide any resource in indie game development field with scripts, materials, 3d model with our community.",
-      "author": {
-        "@type": "Organization",
-        "name": "Ikhode Technolgies"
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ikhode",
+        "url": "https://ikhode.site",
+        "description": "Ikhode Site provide any resource in indie game development field with scripts, materials, 3d model with our community.",
+        "author": {
+          "@type": "Organization",
+          "name": "Ikhode Technolgies"
+        }
       }
-    }}
     </script>
   </head>
   <body class="mx-auto bg-black 2xl:max-w-7xl">
